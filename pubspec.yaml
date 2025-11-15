@@ -1,0 +1,56 @@
+name: splash_screen_app_icon
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.7
+  cupertino_icons: ^1.0.8
+  launcher_name: ^1.0.2
+
+launcher_name:
+  default: "Practice App 1"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_native_splash:
+  color: "#FFFFFF"                         # Splash background color
+  image: assets/images/youtube_icon_960_safe.png           # Splash icon for iOS + Android <12
+  android_12:
+    image: assets/images/youtube_icon_960_safe.png   # 960×960 or 1152×1152 correctly sized
+    icon_background_color: "#FFFFFF"          # Background color for Android 12
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/social.png"
+  adaptive_icon_foreground: "assets/images/youtube_foreground.png"
+  adaptive_icon_background: "#FF0000"
+  web:
+    generate: true
+    image_path: "assets/images/social.png"
+  windows:
+    generate: true
+    image_path: "assets/images/social.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/images/social.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
