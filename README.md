@@ -1,16 +1,49 @@
-# native_splash_screen_app_icon_name
+# Practice_App_1
 
-A new Flutter project.
+A Flutter project demonstrating Android 12 splash screen, adaptive launcher icons, and custom app name configuration.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Android 12–compatible splash screen
 
-A few resources to get you started if this is your first Flutter project:
+- Auto-generated launcher icons for Android, iOS, Web, Windows, macOS
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Custom app name using launcher_name
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Adaptive icon with YouTube-style foreground
+
+- Proper 960×960 safe-zone Android 12 icon support
+
+## 🛠️ Tech Stack
+
+- Flutter SDK 3.9.2
+
+- flutter_native_splash
+
+- flutter_launcher_icons
+
+- launcher_name
+
+## 📂 Project Structure
+
+## 🔧 Splash Screen Setup
+
+## 🎨 Launcher Icon Setup
+
+## 📝 Custom App Name
+
+## ▶️ Run the Project
+
+## 🧪 Supported Platforms
+
+## 📌 Notes
+
+- Android
+
+- iOS
+
+- Web
+
+- Windows
+
+- macOS
